@@ -1,0 +1,14 @@
+name: Sample Build
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Simulate failure
+        run: |
+          echo "Starting build..."
+          ls non_existent_file
