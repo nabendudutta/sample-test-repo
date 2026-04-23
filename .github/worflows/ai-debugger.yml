@@ -36,3 +36,5 @@ jobs:
           REPO: ${{ github.repository }}
           RUN_ID: ${{ github.event.workflow_run.id }}
         run: python app/main.py
+
+#trigger1
